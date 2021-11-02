@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TestDrive</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+    <!-- Contacts section -->
+    <section class="contact-section">
+        <a href="" class="telegram-link">
+            <img class="telegram-icon" src="./img/icons/telegram-icon.svg" alt="tegram-link">
+        </a>
+        <a href="" class="viber-link">
+            <img class="viber-icon" src="./img/icons/viber-icon.svg" alt="viber-link">
+        </a>
+        <a href="tel:+380970000000" class="phone-link-icon">
+            <img class="phone-icon" src="./img/icons/phone-icon.svg" alt="phone-link">
+        </a>
+        <a href="tel:+380970000000" class="phone-link-number">097 000 00 00</a>
+    </section>
+
+    <!-- Experience section -->
+    <section class="experience-section">
+        <img class="my-photo" src="./img/my-photo.jpg" alt="my photo">
+        <div>
+            <a href="https://google.com" class="experience-section-my-link"><img class="icon icon-linkedin" src="./img/icons/linkedin-icon.svg" alt="my linkedin link">
+            </a>
+            <a href="https://google.com" class="experience-section-my-link"><img class="icon" src="./img/icons/fb-icon.svg" alt="my facebook link"></a>
+        </div>
+        <div class="experience-desc">
+            <p class="experience-desc-text experience-desc-text-first">32 готовых проекта</p>
+            <p class="experience-desc-text">2 года опыта</p>
+        </div>
+        <div class="technologies-container">
+            <img class="icon-js" src="./img/icons/js-icon.svg" alt="icon javascript">
+            <img class="icon-react" src="./img/icons/react-icon.svg" alt="icon react">
+            <img class="icon-nodejs" src="./img/icons/nodejs-icon.svg" alt="icon nodejs">
+        </div>
+        <a class="my-projects-link" href="https://www.google.com/search?q=%D0%BA%D0%BE%D1%82%D0%B8%D0%BA%D0%B8+%D1%84%D0%BE%D1%82%D0%BE&rlz=1C1SQJL_ruUA865UA865&sxsrf=AOaemvLrjT88qpIBsM_ymzK9qhSBAJRi5g:1635239911584&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjHk7Ww3-fzAhUvtYsKHaNSC2wQ_AUoAXoECAEQAw&biw=934&bih=655&dpr=1.25">Мои работы</a>
+    </section>
+
+    <!-- My section -->
+    <section class="my-info-section">
+        <h2 class="my-name">Привет! Я - Алекс Тур</h2>
+        <h1 class="my-profession">Я делаю сайты</h1>
+        <p class="my-location">Живу в Перу</p>
+        <p class="my-work-style">Работаю удаленно</p>
+        <p class="my-desc">Я - человек-оркестр. В одиночку заменяю целую веб-студию.</p>
+        <div>
+            <p class="my-skills-title">Умею:</p>
+            <ul class="my-skills-list">
+                <li class="my-skills-item">
+                    <p class="my-skills-text">Управлять IT-проектами и командами;</p>
+                    </li>
+                <li class="my-skills-item">
+                    <p class="my-skills-text">Senior Front End разработчик;</p>
+                    </li>
+                <li class="my-skills-item">
+                    <p class="my-skills-text">Middle Back End разработчик;</p>
+                    </li>
+                <li class="my-skills-item">
+                    <p class="my-skills-text">Могу проконтролировать качество своего или вашего проекта, как QA - специалист.</p>
+                    </li>
+            </ul>
+        </div>
+    </section>
+    <!-- Project price -->
+    <section class="project-price-section">
+        <form action="#" class="project-price-form" method="post" name="contact" data-netlify="true" id="project-price-form">
+            <h4 class="project-price-title">Раcсчитай стоимость проекта</h4>
+            <div class="project-type-container">
+                <label for="project-type" class="form-field-title">Тип сайта</label>
+                <select class="project-type-select" name="project-type" id="project-type">
+                    <option value="landing-page" selected>Landing page</option>
+                    <option value="online-store">Online Store</option>
+                    <option value="web-application">Web Application</option>
+                    <option value="mobile-application">Mobile Application</option>
+                </select>
+            </div>
+            <div class="activity-type-container">
+                <p class="form-field-title">Тип работ</p>
+                <div class="activity-type-item">
+                <input class="activity-type-checkbox" type="checkbox" name="project-management" id="project-management">
+                <label class="activity-type-title" for="project-management">Project Management</label>
+                </div>
+                <div class="activity-type-item">
+                <input checked class="activity-type-checkbox" type="checkbox" name="design" id="design">
+                <label class="activity-type-title" for="design">Design</label>
+                </div>
+                <div class="activity-type-item">
+                <input checked class="activity-type-checkbox" type="checkbox" name="development" id="development">
+                <label class="activity-type-title" for="development">Development</label>
+                </div>
+                <div class="activity-type-item">
+                <input class="activity-type-checkbox" type="checkbox" name="qa" id="qa">
+                <label class="activity-type-title" for="qa">QA</label>
+                </div>
+            </div>
+            <div class="project-price-container">
+               <p class="project-price-form-field-title">Стоимость</p>
+                <p class="project-price-sum"><span class="project-price-sum-currency">$</span> <span id="total-price">0</span></p>
+            </div>
+            <input type="hidden" name="Email">
+            <div class="project-price-calculate-btn-container">
+            <button class="project-price-calculate-btn">Отправить запрос</button>
+            </div>
+            </form>
+    </section>
+    </div>
+    <!-- Modal section -->
+    <div class="modal-bgd" id="modal-email">
+        <div class="modal-container">
+            <button class="modal-close-btn"><img src="./img/icons/close-icon.svg" alt="close-icon"></button>
+            <img class="modal-icon" src="./img/icons/mail-icon.svg" alt="mail-icon">
+            <h4 class="modal-title">Я свяжусь с вами на<br> протяжении ближайшего часа</h4>
+            <form action="#" class="modal-container-form" id="modal-email-container">
+                <div class="email-input-container" id="email-input-container">
+                    <label class="user-email-title" for="user-email">Email</label>
+                    <input class="user-email" type="email" name="user-email" id="user-email" placeholder="Укажите email">
+                    <p class="email-error-text">Проверьте email</p>
+                </div>
+                <button class="modal-submit-btn" type="submit">Отправить</button>
+            </form>
+
+        </div>
+    </div>
+
+    <div class="modal-bgd" id="success-modal">
+        <div class="modal-container modal-container-success">
+            <button class="modal-close-btn"><img src="./img/icons/close-icon.svg" alt="close-icon">
+            </button>
+            <img src="./img/icons/success-icon.svg" alt="success-icon" class="modal-success-icon">
+            <p class="modal-success-message">Все отлично!<br>
+            Запрос отправлен</p>
+        </div>
+    </div>
+
+<script src="./js/script.js"></script>
+</body>
+</html>
